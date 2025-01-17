@@ -21,7 +21,7 @@ True Negatives (Non-Fraud classified correctly): 56,859
 True Positives (Fraud classified correctly): 78
 False Positives (Non-Fraud misclassified as Fraud): 5
 False Negatives (Fraud misclassified as Non-Fraud): 20
-Imbalance Handling
+## Imbalance Handling
 The dataset exhibited a significant class imbalance, with fraudulent transactions being a small fraction of the total:
 
 Non-Fraudulent Transactions (Class 0): 56,864
