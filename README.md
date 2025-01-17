@@ -2,7 +2,7 @@
 Model Performance Overview
 The credit card fraud detection model was evaluated on a highly imbalanced dataset, where the majority of transactions were non-fraudulent. The model was trained using a Random Forest Classifier, and the evaluation metrics indicate strong performance across various measures:
 
-Key Metrics:
+## Key Metrics:
 Accuracy: The model achieved an accuracy of 99.96%, meaning it correctly predicted the class of transactions in 99.96% of cases.
 Precision:
 Non-Fraud (Class 0): 100% precision, meaning all transactions predicted as non-fraud were indeed non-fraudulent.
@@ -27,7 +27,7 @@ Non-Fraudulent Transactions (Class 0): 56,864
 Fraudulent Transactions (Class 1): 98
 The model's performance demonstrates its robustness despite the imbalance. Techniques such as the use of a balanced random forest and appropriate hyperparameter tuning contributed to minimizing false positives and false negatives.
 
-Future Improvements
+## Future Improvements
 To further enhance the model's performance:
 
 Increase Recall for Fraud: Use techniques like SMOTE (Synthetic Minority Oversampling Technique) or undersampling to handle class imbalance more effectively.
