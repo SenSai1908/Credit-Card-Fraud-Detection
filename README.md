@@ -1,19 +1,20 @@
 # Credit-Card-Fraud-Detection
-Model Performance Overview
+## Model Performance Overview
 The credit card fraud detection model was evaluated on a highly imbalanced dataset, where the majority of transactions were non-fraudulent. The model was trained using a Random Forest Classifier, and the evaluation metrics indicate strong performance across various measures:
 
 ## Key Metrics:
-Accuracy: The model achieved an accuracy of 99.96%, meaning it correctly predicted the class of transactions in 99.96% of cases.
-Precision:
+### Accuracy: 
+The model achieved an accuracy of 99.96%, meaning it correctly predicted the class of transactions in 99.96% of cases.
+### Precision:
 Non-Fraud (Class 0): 100% precision, meaning all transactions predicted as non-fraud were indeed non-fraudulent.
 Fraud (Class 1): 94% precision, indicating that 94% of transactions flagged as fraudulent were actual frauds.
-Recall:
+### Recall:
 Non-Fraud (Class 0): 100% recall, meaning all non-fraudulent transactions were correctly identified.
 Fraud (Class 1): 80% recall, meaning the model correctly identified 80% of fraudulent transactions while missing 20%.
-F1-Score:
+### F1-Score:
 Class 0 (Non-Fraud): 1.00
 Class 1 (Fraud): 0.86
-Confusion Matrix:
+## Confusion Matrix:
 The confusion matrix highlights the model's ability to classify transactions correctly:
 
 True Negatives (Non-Fraud classified correctly): 56,859
